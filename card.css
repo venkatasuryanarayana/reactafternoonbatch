@@ -1,0 +1,173 @@
+.card-view{
+	border: 2px solid black;
+	padding:1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.card1,.card2,.card3{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	height: 60%;
+	text-align: center;
+	font-size: 25px;
+	background-color: skyblue;
+}
+
+/*.card2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	text-align: center;
+	font-size: 25px;
+	background-color: skyblue;
+}*/
+
+button{
+	width: 40%;
+	background-color: green;
+	height: 10%;
+}
+
+/*.card3{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	text-align: center;
+	font-size: 25px;
+	background-color: skyblue;
+}*/
+
+img{
+	width: 70%;
+	border: 2px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+
+}
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+	.card-view{
+	border: 2px solid black;
+	padding:1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.card1,.card2,.card3{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	height: 60%;
+	text-align: center;
+	font-size: 25px;
+	background-color: orange;
+}
+
+/*.card2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	text-align: center;
+	font-size: 25px;
+	background-color: orange;
+}*/
+
+button{
+	width: 40%;
+	background-color: green;
+	height: 10%;
+}
+
+/*.card3{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	text-align: center;
+	font-size: 25px;
+	background-color: orange;
+}*/
+
+img{
+	width: 70%;
+	border: 2px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+
+}
+}
+
+@media only screen and (min-width:481px) and (max-width:767px){
+	.card-view{
+	border: 2px solid black;
+	padding:1%;
+	margin: 1%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card1,.card2,.card3{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 40%;
+	height: 60%;
+	text-align: center;
+	font-size: 25px;
+	background-color: yellow;
+}
+
+/*.card2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	text-align: center;
+	font-size: 25px;
+	background-color: skyblue;
+}*/
+
+button{
+	width: 40%;
+	background-color: green;
+	height: 10%;
+}
+
+/*.card3{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 25%;
+	text-align: center;
+	font-size: 25px;
+	background-color: skyblue;
+}*/
+
+img{
+	width: 70%;
+	border: 2px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+
+}
+
+
+}

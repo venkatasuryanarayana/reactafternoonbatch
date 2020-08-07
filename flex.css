@@ -1,0 +1,14 @@
+.flex{
+			display: flex;
+			flex-direction: column-reverse;
+
+		}
+		
+			.flex div{
+	padding:1%;
+	margin: 1%;
+	border: 2px solid #ddd;
+	background-color: skyblue;
+	font-size: 40px;
+
+      }
